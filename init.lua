@@ -9,4 +9,5 @@ require("_kommentary")
 require("_terminal")
 require("_whichkey")
 
-vim.cmd("colorscheme walh-default-legacy")
+vim.o.background = "dark"
+vim.cmd([[colorscheme gruvbox]])

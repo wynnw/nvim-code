@@ -41,6 +41,8 @@ return packer.startup(function()
     "nvim-treesitter/nvim-treesitter",
     "pacha/vem-tabline",
     "mhinz/vim-sayonara",
+
+    "ellisonleao/gruvbox.nvim",
   })
   use({
     "nvim-telescope/telescope.nvim",
