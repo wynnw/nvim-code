@@ -69,6 +69,7 @@ return packer.startup(function()
     config = function()
       require("gitsigns").setup({
         numhl = true,
+        current_line_blame = true,
         yadm = { enable = false },
       })
     end,
